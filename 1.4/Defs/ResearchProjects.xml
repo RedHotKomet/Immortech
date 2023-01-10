@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ResearchTabDef>
+        <defName>IMT_Immortech</defName>
+        <label>Immortech</label>
+        <description>All research projects for Immortech</description>
+    </ResearchTabDef>
+
+    <ResearchProjectDef>
+        <defName>IMT_base</defName>
+        <label>M8 prototype serie</label>
+        <tab>IMT_Immortech</tab>
+        <description>Research to unlock Immortech.</description>
+        <baseCost>100</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <!-- <li>ATPP_ResearchSM7</li>
+            <li>ATPP_ResearchSkyCloudCore</li> -->
+        </prerequisites>
+        <researchViewX>1</researchViewX>
+        <researchViewY>1</researchViewY>
+    </ResearchProjectDef>
+</Defs>
